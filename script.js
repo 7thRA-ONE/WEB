@@ -8,6 +8,7 @@ downloadButton.addEventListener('click', () => {
   if (videoUrl) {
     const { YTDL } = require("ytdl-easy");
 
+    
     // Fetch video information using ytdl-easy
     YTDL(videoUrl)
       .then(res => {
