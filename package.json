@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "ytdl-easy": "^1.1.5"
+  }
+}
